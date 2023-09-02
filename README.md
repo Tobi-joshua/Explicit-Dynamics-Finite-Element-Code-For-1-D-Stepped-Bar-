@@ -1,2 +1,4 @@
 # Explicit-Dynamics-Finite-Element-Code-For-1-D-Stepped-Bar
 The explicit dynamic finite element method used in the code below is based on the following mathematical formulations.
+Discretization: The bar is divided into a finite number of elements, each of which has two nodes. The displacement and velocity at each node are assumed to vary linearly within the element, and are interpolated using shape functions. The element stiffness matrix, mass matrix, and force vector are then computed using numerical integration over the element.
+Central difference method: The explicit time integration scheme used in the code is the central difference method, which is a second-order accurate method for solving ordinary differential equations. The central difference method approximates the time derivative of a function using a finite difference formula that involves values of the function at two adjacent time step.
